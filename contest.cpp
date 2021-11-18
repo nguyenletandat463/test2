@@ -41,7 +41,8 @@ int main () {
     for (int i = 0; i < n; i++) {
         x = abs(a[i][0] - tim(a[i][0]));
         y = abs(a[i][1] - tim(a[i][1]));
-        cout << setprecision(2) << fixed << sqrt(x*x + y*y) << " ";            
+        cout << setprecision(2) << fixed << sqrt(x*x + y*y) << " ";   
+        cout << "A đù má nứng l quá github ơi!"; 
     }
     return 0;   
 }
